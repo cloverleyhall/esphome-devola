@@ -18,9 +18,10 @@ esp8266:
 
 # Enable logging
 logger:
-
+ota:
+  platform: esphome
 # Enable Home Assistant API
-
+api:
 wifi:
   ap:
     ssid: "Heater Fallback Hotspot"
