@@ -38,7 +38,7 @@ uart:
 
 climate:
   - platform: tuya
-    name: "Dovecot 1 Bedroom Heater"
+    name: "${friendly_name}"
     switch_datapoint: 1
     target_temperature_datapoint: 2
     current_temperature_datapoint: 3
